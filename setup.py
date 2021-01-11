@@ -28,6 +28,8 @@ def server_data_make():
         sleep(10)
     elif fuk == "n":
         print("Done setup thx for using tools!")
+        sleep(3)
+        exit()
     else:
         exit()
 
@@ -41,6 +43,7 @@ def install_xampp():
         server_data_make()
     elif fart == "n":
         print("Ok we will make server_data.php now!")
+        sleep(3)
         os.system("cls")
         server_data_make()
 
